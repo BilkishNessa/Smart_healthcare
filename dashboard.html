@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart HealthCare Monitoring</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>💓 Smart HealthCare Monitoring System</h1>
+
+  <p><strong>Heart Rate:</strong> <span>{{ data.heart_rate }} bpm</span></p>
+  <p><strong>Blood Pressure:</strong> <span>{{ data.blood_pressure }} mmHg</span></p>
+  <p><strong>Body Temperature:</strong> <span>{{ data.temperature }} °C</span></p>
+</body>
+</html>
